@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "case_id": "unsigned-contract",
+      "state": "challenged",
+      "independent_source_count": 1,
+      "facts": [
+        {
+          "document_id": "d-visible",
+          "quote": "A binding contract has been signed.",
+          "statement": "The issuer says no binding contract has been signed.",
+          "entity_ids": [
+            "paper-crane",
+            "willow"
+          ],
+          "stance": "oppose"
+        }
+      ],
+      "relationships": [],
+      "reasoning": "The visible bulletin contradicts the signed-contract proposition.",
+      "unknowns": [
+        "Whether a contract will be signed later."
+      ]
+    }
+  ]
+}

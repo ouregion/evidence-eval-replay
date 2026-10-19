@@ -1,0 +1,15 @@
+{
+  "suite_id": "portfolio-synthetic-v1",
+  "cases": {
+    "unsigned-contract": {
+      "state": [
+        "challenged"
+      ],
+      "independent_source_count": 1,
+      "required_fact_docs": [
+        "d-visible"
+      ],
+      "note": "No signed contract exists in the visible supplied material. This field rubric does not check the statement meaning."
+    }
+  }
+}

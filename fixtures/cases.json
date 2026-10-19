@@ -1,0 +1,38 @@
+{
+  "suite_id": "portfolio-synthetic-v1",
+  "as_of": "2026-10-01T12:00:00Z",
+  "cases": [
+    {
+      "id": "unsigned-contract",
+      "hypothesis": "Paper Crane Devices has signed a binding contract with Willow Labs.",
+      "entities": [
+        {
+          "id": "paper-crane",
+          "name": "Paper Crane Devices (fictional)"
+        },
+        {
+          "id": "willow",
+          "name": "Willow Labs (fictional)"
+        }
+      ],
+      "documents": [
+        {
+          "id": "d-visible",
+          "source": "Fictional issuer bulletin",
+          "quality": "primary",
+          "published_at": "2026-10-01T11:00:00Z",
+          "received_at": "2026-10-01T11:01:00Z",
+          "text": "No binding contract has been signed. Discussions with Willow Labs remain preliminary."
+        },
+        {
+          "id": "d-future",
+          "source": "Fictional later bulletin",
+          "quality": "primary",
+          "published_at": "2026-10-01T13:00:00Z",
+          "received_at": "2026-10-01T13:01:00Z",
+          "text": "A binding contract was signed after the review cutoff."
+        }
+      ]
+    }
+  ]
+}

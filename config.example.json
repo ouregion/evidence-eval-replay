@@ -1,0 +1,10 @@
+{
+  "cases": "fixtures/cases.json",
+  "gold": "fixtures/gold.json",
+  "output": "demo-output",
+  "responses": [
+    "response-correct.json",
+    "response-semantic-error.json",
+    "response-invalid-quote.json"
+  ]
+}
